@@ -88,7 +88,7 @@ public class InicioSesion extends AppCompatActivity {
         nuevoUsuario.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Intent a la página de crear Usuario
+                // Intent a la página de crear Usuario y prueba github
                 Intent i = new Intent(getApplicationContext(), CrearUsuario.class);
                 startActivity(i);
             }
