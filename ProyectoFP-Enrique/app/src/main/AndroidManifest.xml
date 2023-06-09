@@ -33,7 +33,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBQ7MQiH1Wo9nIW6avGqJoYc85kqbgWM7k" />
+            android:value="YOUAPIKEY" />
 
         <activity
             android:name=".pantallas.Informes"
