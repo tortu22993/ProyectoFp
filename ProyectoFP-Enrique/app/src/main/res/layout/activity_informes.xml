@@ -1,0 +1,124 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+    <ScrollView android:id="@+id/consultar_citas_paciente"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+
+
+
+            <RelativeLayout android:id="@+id/page_consultar_citas_paciente_ek1"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <View   android:id="@+id/_bg__consultar_citas_paciente_ek2"
+                    android:background="@drawable/_bg__consultar_citas_paciente_ek2_shape"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="411dp"
+                    android:layout_height="731dp" />
+
+
+                <RelativeLayout android:id="@+id/parte_inicial_arriba_ek4"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView android:id="@+id/pr_ximas_citas_ek1"
+                        android:textStyle="bold"
+                        android:textSize="36sp"
+                        android:textColor="@color/reservar_color"
+                        android:layout_marginLeft="105dp"
+                        android:layout_marginTop="61dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="74dp"
+                        android:text="Informes"
+                        />
+
+
+                    <RelativeLayout android:id="@+id/home_buttons_ek4"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <ImageView android:id="@+id/homeBoton"
+                            android:src="@drawable/home_ek4"
+                            android:contentDescription="home_ek4"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp" />
+
+
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <TextView android:id="@+id/seleccione_el_d_a"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textColor="@color/reservar_color"
+                    android:layout_marginLeft="41dp"
+                    android:layout_marginTop="165dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:text="Seleccione el informe"
+                    />
+
+                <Spinner
+                    android:id="@+id/spinnerArchivos"
+                    android:background="@color/white"
+                    android:layout_marginStart="41dp"
+                    android:layout_marginTop="225dp"
+                    android:layout_width="300dp"
+                    android:layout_height="45dp" />
+
+
+
+                <RelativeLayout android:id="@+id/descargar"
+                    android:layout_marginTop="451dp"
+                    android:layout_marginStart="48dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <View   android:id="@+id/descargarBoton"
+                        android:background="@drawable/rectangle_3_shape"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="259dp"
+                        android:layout_height="70dp" />
+
+                    <TextView android:id="@+id/descargarTV"
+                        android:textStyle="bold"
+                        android:textSize="24sp"
+                        android:textColor="@color/reservar_color"
+                        android:layout_marginLeft="74dp"
+                        android:layout_marginTop="17dp"
+                        android:layout_width="140dp"
+                        android:layout_height="52dp"
+                        android:text="Descargar"
+                        />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>

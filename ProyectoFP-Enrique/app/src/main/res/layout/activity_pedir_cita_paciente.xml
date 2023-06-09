@@ -1,0 +1,139 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+    <ScrollView android:id="@+id/pedir_cita_paciente"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout android:id="@+id/page_pedir_cita_paciente_ek1"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+
+                <View
+                    android:id="@+id/_bg__pedir_cita_paciente_ek2"
+                    android:layout_width="411dp"
+                    android:layout_height="731dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/_bg__pedir_cita_paciente_ek2_shape" />
+
+                <RelativeLayout android:id="@+id/reservas_boton"
+                    android:layout_marginTop="551dp"
+                    android:layout_marginStart="45dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <View
+                        android:id="@+id/reservarButton"
+                        android:layout_width="259dp"
+                        android:layout_height="70dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/rectangle_3_shape" />
+
+                    <TextView android:id="@+id/reservar"
+                        android:textStyle="bold"
+                        android:textSize="24sp"
+                        android:textColor="@color/reservar_color"
+                        android:layout_marginLeft="74dp"
+                        android:layout_marginTop="17dp"
+                        android:layout_width="140dp"
+                        android:layout_height="52dp"
+                        android:text="@string/reservar_string"
+                        />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout android:id="@+id/parte_inicial_arriba"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView android:id="@+id/pedir_cita"
+                        android:textStyle="bold"
+                        android:textSize="36sp"
+                        android:textColor="@color/reservar_color"
+                        android:layout_marginLeft="98dp"
+                        android:layout_marginTop="52dp"
+                        android:layout_width="198dp"
+                        android:layout_height="74dp"
+                        android:text="@string/pedir_cita_string"
+                        />
+
+
+                    <RelativeLayout android:id="@+id/home_buttons"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <ImageView android:id="@+id/homeBoton"
+                            android:src="@drawable/home"
+                            android:contentDescription="home"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <TextView android:id="@+id/seleccione_el_d_a"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textColor="@color/reservar_color"
+                    android:layout_marginLeft="41dp"
+                    android:layout_marginTop="165dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:text="Seleccione la especialidad"
+                    />
+
+                <Spinner
+                    android:id="@+id/especialidadSpinner"
+                    android:layout_width="260dp"
+                    android:layout_height="48dp"
+                    android:background="@color/white"
+                    android:layout_marginStart="41dp"
+                    android:layout_marginTop="225dp" />
+
+                <TextView android:id="@+id/seleccione_la_hora"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textColor="@color/reservar_color"
+                    android:layout_marginLeft="41dp"
+                    android:layout_marginTop="370dp"
+                    android:layout_width="213dp"
+                    android:layout_height="45dp"
+                    android:text="Seleccione la cita"
+                    />
+
+
+                <Spinner
+                    android:id="@+id/citaSpinner"
+                    android:layout_width="260dp"
+                    android:layout_height="48dp"
+                    android:background="@color/white"
+                    android:layout_marginStart="41dp"
+                    android:layout_marginTop="430dp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>

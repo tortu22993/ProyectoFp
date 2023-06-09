@@ -1,0 +1,130 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+    <ScrollView android:id="@+id/consultar_citas_paciente"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout android:id="@+id/page_consultar_citas_paciente_ek1"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <View   android:id="@+id/_bg__consultar_citas_paciente_ek2"
+                    android:background="@drawable/_bg__consultar_citas_paciente_ek2_shape"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="411dp"
+                    android:layout_height="731dp" />
+
+
+                <RelativeLayout android:id="@+id/parte_inicial_arriba_ek4"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView android:id="@+id/pr_ximas_citas_ek1"
+                        android:textStyle="bold"
+                        android:textSize="36sp"
+                        android:textColor="@color/reservar_color"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="52dp"
+                        android:layout_width="283dp"
+                        android:layout_height="74dp"
+                        android:text="Próximas citas"
+                        />
+
+
+                    <RelativeLayout android:id="@+id/home_buttons_ek4"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <ImageView android:id="@+id/homeBoton"
+                            android:src="@drawable/home_ek4"
+                            android:contentDescription="home_ek4"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp" />
+
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <TextView android:id="@+id/seleccione_el_d_a"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textColor="@color/reservar_color"
+                    android:layout_marginLeft="41dp"
+                    android:layout_marginTop="165dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:text="Seleccione la cita"
+                    />
+
+                <Spinner
+                    android:id="@+id/listaCitas"
+                    android:background="@color/white"
+                    android:layout_marginStart="41dp"
+                    android:layout_marginTop="225dp"
+                    android:layout_width="260dp"
+                    android:layout_height="45dp" />
+
+                <TextView android:id="@+id/textoCita"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textColor="@color/reservar_color"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="340dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    />
+
+                <RelativeLayout android:id="@+id/cancelar_boton"
+                    android:layout_marginTop="471dp"
+                    android:layout_marginStart="48dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <View
+                        android:id="@+id/cancelaButton"
+                        android:background="@drawable/rectangle_3_shape"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="259dp"
+                        android:layout_height="70dp" />
+
+                    <TextView
+                        android:id="@+id/cancelar"
+                        android:layout_width="165dp"
+                        android:layout_height="57dp"
+                        android:layout_marginLeft="44dp"
+                        android:layout_marginTop="17dp"
+                        android:text="Cancelar Cita"
+                        android:textColor="@color/reservar_color"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>
